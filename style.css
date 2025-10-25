@@ -696,18 +696,22 @@ button:hover {
 
     /*about design*/
 
+    #about {
+        padding: 0;
+    }
     .about-detail h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     .about-detail p {
         font-size: .9rem;
     }
 
-    .skills {
+    .about-detail .skills {
+        max-width: 100%;
         padding: 0;
         margin: 0;
-        width: auto !important;
+        width: 90%;
     }
     
     .skills .skill {
@@ -720,6 +724,7 @@ button:hover {
         font-size: 1.7rem;
         padding: 0;
         margin: 0;
+        margin-top: 1.7rem;
     }
 
     #projects p {
