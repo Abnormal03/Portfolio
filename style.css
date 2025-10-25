@@ -643,7 +643,9 @@ button:hover {
         display: block;
         font-size: 1.8rem;
         margin: 0;
+        margin-right: 10px;
         cursor: pointer;
+
     }
     .header .navbar {
         display: flex;
@@ -734,7 +736,15 @@ button:hover {
 
     .projects-container {
         margin-top: .4rem;
-        gap: 0.9rem;
+        gap: 0.4rem;
+    }
+    .project-box button {
+        height: 30px;
+    }
+
+    .project-box .skills-used {
+        margin: 0;
+        height: 30px;
     }
 
     /*services design*/
@@ -749,10 +759,10 @@ button:hover {
 
     .services-container {
         margin: 0;
-        gap: 0.4rem;
+        gap: 0.5rem;
     }
 
-    .service-box {
+    .services-container .service-box {
         height: auto;
     }
     .service-box:hover {
