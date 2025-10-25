@@ -23,7 +23,7 @@ window.onscroll = () =>{
        
     })
 
-    if (window.innerWidth<600) {
+    if (window.innerWidth<=600) {
         navbar.classList.remove('visible');
         menubar.classList = 'bx bx-menu-alt-right';
     }
